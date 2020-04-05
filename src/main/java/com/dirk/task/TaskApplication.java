@@ -5,7 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.task.configuration.EnableTask;
 import org.springframework.cloud.task.listener.TaskExecutionListener;
-import org.springframework.cloud.task.listener.annotation.BeforeTask;
 import org.springframework.cloud.task.repository.TaskExecution;
 
 @SpringBootApplication
