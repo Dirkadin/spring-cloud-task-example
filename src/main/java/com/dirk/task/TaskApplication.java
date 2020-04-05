@@ -16,7 +16,8 @@ public class TaskApplication implements CommandLineRunner, TaskExecutionListener
 
     @Override
     public void run(String... args) throws Exception {
-        System.out.println("Welcome to " + args[0]);
+        String arg = args.length == 0 ? "you" : args[0];
+        System.out.println("Welcome to " + arg);
     }
 
     @Override
